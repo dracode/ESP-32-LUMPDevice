@@ -108,24 +108,30 @@ class LPF2(object):
                bit = int(math.log2(length[dataType]))
                value = struct.pack(dataFormat[dataType], array)
           payload = bytearray([CMD_Data | (bit << CMD_LLL_SHIFT) | self.current_mode])+value
-          self.payload[mode] = self.addChksm(payload)
+          payload = self.addChksm(payload)
+
+          modeChangeAnnouncement = bytearray(b'\x46') + self.current_mode.to_bytes(1, 'lsb')
+          modeChangeAnnouncement = self.addChksm(modeChangeAnnouncement)
+          self.payload[mode] = payload # modeChangeAnnouncement + payload
           
 #----- comm stuff
 
      def hubCallback(self, timerInfo):
+          heartbeatReceived = False
           if self.connected:
                char = readchar(self.uart)     # read in any heartbeat bytes
                while char >=0:
                     if char == 0:   # port has nto been setup yet
                          pass
                     elif char == BYTE_NACK:     # regular heartbeat pulse
+                         heartbeatReceived = True
                          self.lastHeartbeat = utime.ticks_ms()
                     elif char == CMD_Select:    # reset the mode
                          mode = readchar(self.uart)
                          cksm = readchar(self.uart)
                          if cksm == 0xff ^ CMD_Select ^ mode:
                               self.current_mode = mode
-                              # print(mode)
+                              print("Mode change:", mode)
                     elif char == 0x46:     # sending over a string
                          zero = readchar(self.uart)
                          b9 = readchar(self.uart)
@@ -153,12 +159,17 @@ class LPF2(object):
                          print(char)
                     char = readchar(self.uart)
                     
-               for m in range(len(self.modes)):
-                    size = self.writeIt(self.payload[m])    # send out the latest payload
-                    if not size:
-                         self.connected = False
-               if(utime.ticks_diff(utime.ticks_ms(), self.lastHeartbeat) > HEARTBEAT_TIMEOUT): # no heartbeat received for a while; we're dead
-                    self.connected = False
+          if(heartbeatReceived):
+               size = self.writeIt(self.payload[self.current_mode])    # send out the latest payload
+               if not size:
+                    self.conected = False
+          # for m in range(len(self.modes)):
+          #     size = self.writeIt(self.payload[m])
+          #     utime.sleep_ms(20)
+          #     if not size:
+          #          self.connected = False
+          if(utime.ticks_diff(utime.ticks_ms(), self.lastHeartbeat) > HEARTBEAT_TIMEOUT): # no heartbeat received for a while; we're dead
+               self.connected = False
 
      def writeIt(self,array):
           debug(2, 'SENT:' + str(binascii.hexlify(array)))
