@@ -1,0 +1,449 @@
+[2] SENT:b'00'
+[2] SENT:b'40239c'
+[2] SENT:b'490101b6'
+[2] SENT:b'5200c201006e'
+[2] SENT:b'5f0000000200000002a0'
+[2] SENT:b'9900547278496400000015'
+[2] SENT:b'9901000000000000c842ed'
+[2] SENT:b'9902000000000000c842ee'
+[2] SENT:b'9903000000000000c842ef'
+[2] SENT:b'8104007a'
+[2] SENT:b'8905100063'
+[2] SENT:b'918001000300ec'
+[2] SENT:b'98004e46435f554944002b'
+[2] SENT:b'9801000000000000c842ec'
+[2] SENT:b'9802000000000000c842ef'
+[2] SENT:b'9803000000000000c842ee'
+[2] SENT:b'8004007b'
+[2] SENT:b'8805100062'
+[2] SENT:b'908008000300e4'
+[2] SENT:b'04'
+[1] readchar: 04
+Success
+[1] readchar: 02
+[2] SENT:b'd8353500000000000027'
+[1] readchar: 02
+[2] SENT:b'd8353500000000000027'
+[1] readchar: 02
+[2] SENT:b'd8363600000000000027'
+[1] readchar: 02
+[2] SENT:b'd8363600000000000027'
+[1] readchar: 02
+[2] SENT:b'd8373700000000000027'
+[1] readchar: 02
+[2] SENT:b'd8373700000000000027'
+[1] readchar: 02
+[2] SENT:b'd8383800000000000027'
+[1] readchar: 02
+[2] SENT:b'd8383800000000000027'
+[1] readchar: 02
+[2] SENT:b'd8383800000000000027'
+[1] readchar: 02
+[2] SENT:b'd8393900000000000027'
+[1] readchar: 02
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c03a05'
+[1] readchar: 02
+[2] SENT:b'c13b05'
+[1] readchar: 02
+[2] SENT:b'c13b05'
+[1] readchar: 02
+[2] SENT:b'c13c02'
+[1] readchar: 02
+[2] SENT:b'c13c02'
+[1] readchar: 02
+[2] SENT:b'c13c02'
+[1] readchar: 02
+[2] SENT:b'c13d03'
+[1] readchar: 02
+[2] SENT:b'c13d03'
+[1] readchar: 02
+[2] SENT:b'c13e00'
+[1] readchar: 02
+[2] SENT:b'c13f01'
+[1] readchar: 02
+[2] SENT:b'c13f01'
+[1] readchar: 02
+[2] SENT:b'c1407e'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd9404000000000000026'
+[1] readchar: 02
+[2] SENT:b'd9404000000000000026'
+[1] readchar: 02
+[2] SENT:b'd8414100000000000027'
+[1] readchar: 02
+[2] SENT:b'd8414100000000000027'
+[1] readchar: 02
+[2] SENT:b'd8424200000000000027'
+[1] readchar: 02
+[2] SENT:b'd8424200000000000027'
+[1] readchar: 02
+[2] SENT:b'd8434300000000000027'
+[1] readchar: 02
+[2] SENT:b'd8444400000000000027'
+[1] readchar: 02
+[2] SENT:b'd8444400000000000027'
+[1] readchar: 02
+[2] SENT:b'd8444400000000000027'
+[1] readchar: 02
+[2] SENT:b'd8454500000000000027'
+[1] readchar: 02
+[2] SENT:b'd8454500000000000027'
+[1] readchar: 02
+[2] SENT:b'd8464600000000000027'
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c04679'
+[1] readchar: 02
+[2] SENT:b'c14779'
+[1] readchar: 02
+[2] SENT:b'c14779'
+[1] readchar: 02
+[2] SENT:b'c14779'
+[1] readchar: 02
+[2] SENT:b'c14876'
+[1] readchar: 02
+[2] SENT:b'c14977'
+[1] readchar: 02
+[2] SENT:b'c14977'
+[1] readchar: 02
+[2] SENT:b'c14a74'
+[1] readchar: 02
+[2] SENT:b'c14a74'
+[1] readchar: 02
+[2] SENT:b'c14b75'
+[1] readchar: 02
+[2] SENT:b'c14b75'
+[1] readchar: 02
+[2] SENT:b'c14b75'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd94c4c00000000000026'
+[1] readchar: 02
+[2] SENT:b'd94c4c00000000000026'
+[1] readchar: 02
+[2] SENT:b'd84d4d00000000000027'
+[1] readchar: 02
+[2] SENT:b'd84e4e00000000000027'
+[1] readchar: 02
+[2] SENT:b'd84e4e00000000000027'
+[1] readchar: 02
+[2] SENT:b'd84f4f00000000000027'
+[1] readchar: 02
+[2] SENT:b'd84f4f00000000000027'
+[1] readchar: 02
+[2] SENT:b'd84f4f00000000000027'
+[1] readchar: 02
+[2] SENT:b'd8505000000000000027'
+[1] readchar: 02
+[2] SENT:b'd8505000000000000027'
+[1] readchar: 02
+[2] SENT:b'd8515100000000000027'
+[1] readchar: 02
+[2] SENT:b'd8515100000000000027'
+[1] readchar: 02
+[2] SENT:b'd8525200000000000027'
+[1] readchar: 02
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c0536c'
+[1] readchar: 02
+[2] SENT:b'c0536c'
+[1] readchar: 02
+[2] SENT:b'c1546a'
+[1] readchar: 02
+[2] SENT:b'c1546a'
+[1] readchar: 02
+[2] SENT:b'c1556b'
+[1] readchar: 02
+[2] SENT:b'c1556b'
+[1] readchar: 02
+[2] SENT:b'c15668'
+[1] readchar: 02
+[2] SENT:b'c15668'
+[1] readchar: 02
+[2] SENT:b'c15769'
+[1] readchar: 02
+[2] SENT:b'c15769'
+[1] readchar: 02
+[2] SENT:b'c15866'
+[1] readchar: 02
+[2] SENT:b'c15866'
+[1] readchar: 02
+[2] SENT:b'c15967'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd9595900000000000026'
+[1] readchar: 02
+[2] SENT:b'd85a5a00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85a5a00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85b5b00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85b5b00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85b5b00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85c5c00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85d5d00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85d5d00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85e5e00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85e5e00000000000027'
+[1] readchar: 02
+[2] SENT:b'd85f5f00000000000027'
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c05f60'
+[1] readchar: 02
+[2] SENT:b'c05f60'
+[1] readchar: 02
+[2] SENT:b'c1605e'
+[1] readchar: 02
+[2] SENT:b'c1605e'
+[1] readchar: 02
+[2] SENT:b'c1615f'
+[1] readchar: 02
+[2] SENT:b'c1625c'
+[1] readchar: 02
+[2] SENT:b'c1625c'
+[1] readchar: 02
+[2] SENT:b'c1635d'
+[1] readchar: 02
+[2] SENT:b'c1635d'
+[1] readchar: 02
+[2] SENT:b'c1635d'
+[1] readchar: 02
+[2] SENT:b'c1645a'
+[1] readchar: 02
+[2] SENT:b'c1645a'
+[1] readchar: 02
+[2] SENT:b'c1655b'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd9650100000000000042'
+[1] readchar: 02
+[2] SENT:b'd8660200000000000043'
+[1] readchar: 02
+[2] SENT:b'd8670300000000000043'
+[1] readchar: 02
+[2] SENT:b'd8670300000000000043'
+[1] readchar: 02
+[2] SENT:b'd8670300000000000043'
+[1] readchar: 02
+[2] SENT:b'd868040000000000004b'
+[1] readchar: 02
+[2] SENT:b'd868040000000000004b'
+[1] readchar: 02
+[2] SENT:b'd869050000000000004b'
+[1] readchar: 02
+[2] SENT:b'd869050000000000004b'
+[1] readchar: 02
+[2] SENT:b'd86a060000000000004b'
+[1] readchar: 02
+[2] SENT:b'd86a060000000000004b'
+[1] readchar: 02
+[2] SENT:b'd86b070000000000004b'
+[1] readchar: 02
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c06b54'
+[1] readchar: 02
+[2] SENT:b'c16c52'
+[1] readchar: 02
+[2] SENT:b'c16d53'
+[1] readchar: 02
+[2] SENT:b'c16d53'
+[1] readchar: 02
+[2] SENT:b'c16e50'
+[1] readchar: 02
+[2] SENT:b'c16e50'
+[1] readchar: 02
+[2] SENT:b'c16e50'
+[1] readchar: 02
+[2] SENT:b'c16f51'
+[1] readchar: 02
+[2] SENT:b'c1704e'
+[1] readchar: 02
+[2] SENT:b'c1704e'
+[1] readchar: 02
+[2] SENT:b'c1714f'
+[1] readchar: 02
+[2] SENT:b'c1714f'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd9710d0000000000005a'
+[1] readchar: 02
+[2] SENT:b'd8720e0000000000005b'
+[1] readchar: 02
+[2] SENT:b'd8720e0000000000005b'
+[1] readchar: 02
+[2] SENT:b'd8730f0000000000005b'
+[1] readchar: 02
+[2] SENT:b'd8730f0000000000005b'
+[1] readchar: 02
+[2] SENT:b'd8741000000000000043'
+[1] readchar: 02
+[2] SENT:b'd8741000000000000043'
+[1] readchar: 02
+[2] SENT:b'd8751100000000000043'
+[1] readchar: 02
+[2] SENT:b'd8751100000000000043'
+[1] readchar: 02
+[2] SENT:b'd8761200000000000043'
+[1] readchar: 02
+[2] SENT:b'd8761200000000000043'
+[1] readchar: 02
+[2] SENT:b'd8771300000000000043'
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c07748'
+[1] readchar: 02
+[2] SENT:b'c17846'
+[1] readchar: 02
+[2] SENT:b'c17846'
+[1] readchar: 02
+[2] SENT:b'c17846'
+[1] readchar: 02
+[2] SENT:b'c17947'
+[1] readchar: 02
+[2] SENT:b'c17a44'
+[1] readchar: 02
+[2] SENT:b'c17a44'
+[1] readchar: 02
+[2] SENT:b'c17b45'
+[1] readchar: 02
+[2] SENT:b'c17b45'
+[1] readchar: 02
+[2] SENT:b'c17c42'
+[1] readchar: 02
+[2] SENT:b'c17c42'
+[1] readchar: 02
+[2] SENT:b'c17c42'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd97d1900000000000042'
+[1] readchar: 02
+[2] SENT:b'd97d1900000000000042'
+[1] readchar: 02
+[2] SENT:b'd87e1a00000000000043'
+[1] readchar: 02
+[2] SENT:b'd87f1b00000000000043'
+[1] readchar: 02
+[2] SENT:b'd87f1b00000000000043'
+[1] readchar: 02
+[2] SENT:b'd8801c000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8801c000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8801c000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8811d000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8811d000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8821e000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8821e000000000000bb'
+[1] readchar: 02
+[2] SENT:b'd8831f000000000000bb'
+[1] readchar: 43
+[1] readchar: 01
+[1] readchar: bd
+Mode change: 1
+[1] readchar: 02
+[2] SENT:b'c083bc'
+[1] readchar: 02
+[2] SENT:b'c184ba'
+[1] readchar: 02
+[2] SENT:b'c184ba'
+[1] readchar: 02
+[2] SENT:b'c185bb'
+[1] readchar: 02
+[2] SENT:b'c185bb'
+[1] readchar: 02
+[2] SENT:b'c186b8'
+[1] readchar: 02
+[2] SENT:b'c186b8'
+[1] readchar: 02
+[2] SENT:b'c187b9'
+[1] readchar: 02
+[2] SENT:b'c187b9'
+[1] readchar: 02
+[2] SENT:b'c188b6'
+[1] readchar: 02
+[2] SENT:b'c188b6'
+[1] readchar: 02
+[2] SENT:b'c189b7'
+[1] readchar: 43
+[1] readchar: 00
+[1] readchar: bc
+Mode change: 0
+[1] readchar: 02
+[2] SENT:b'd989250000000000008a'
+[1] readchar: 02
+[2] SENT:b'd88a260000000000008b'
+[1] readchar: 02
+[2] SENT:b'd88a260000000000008b'
+[1] readchar: 02
+[2] SENT:b'd88b270000000000008b'
+[1] readchar: 02
+[2] SENT:b'd88b270000000000008b'
+[1] readchar: 02
+[2] SENT:b'd88c2800000000000083'
+[1] readchar: 02
+[2] SENT:b'd88c2800000000000083'
+[1] readchar: 02
+[2] SENT:b'd88c2800000000000083'
+[1] readchar: 02
+[2] SENT:b'd88d2900000000000083'
+[1] readchar: 02
+[2] SENT:b'd88e2a00000000000083'
+[1] readchar: 02
+[2] SENT:b'd88e2a00000000000083'
+[1] readchar: 02
+[2] SENT:b'd88f2b00000000000083'
+[1] readchar: 02
+[2] SENT:b'd88f2b00000000000083'
