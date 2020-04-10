@@ -107,12 +107,10 @@ class LPF2(object):
           else:
                bit = int(math.log2(length[dataType]))
                value = struct.pack(dataFormat[dataType], array)
-          payload = bytearray([CMD_Data | (bit << CMD_LLL_SHIFT) | self.current_mode])+value
+          payload = bytearray([CMD_Data | (bit << CMD_LLL_SHIFT) | mode])+value
           payload = self.addChksm(payload)
 
-          modeChangeAnnouncement = bytearray(b'\x46') + self.current_mode.to_bytes(1, 'lsb')
-          modeChangeAnnouncement = self.addChksm(modeChangeAnnouncement)
-          self.payload[mode] = payload # modeChangeAnnouncement + payload
+          self.payload[mode] = payload 
           
 #----- comm stuff
 
@@ -120,7 +118,7 @@ class LPF2(object):
           heartbeatReceived = False
           if self.connected:
                char = readchar(self.uart)     # read in any heartbeat bytes
-               while char >=0:
+               while char >= 0:
                     if char == 0:   # port has nto been setup yet
                          pass
                     elif char == BYTE_NACK:     # regular heartbeat pulse
@@ -131,6 +129,9 @@ class LPF2(object):
                          cksm = readchar(self.uart)
                          if cksm == 0xff ^ CMD_Select ^ mode:
                               self.current_mode = mode
+                              # modeChangeAnnouncement = bytearray(b'\x46') + self.current_mode.to_bytes(1, 'lsb')
+                              # modeChangeAnnouncement = self.addChksm(modeChangeAnnouncement)
+                              # self.writeIt(modeChangeAnnouncement)
                               print("Mode change:", mode)
                     elif char == 0x46:     # sending over a string
                          zero = readchar(self.uart)
